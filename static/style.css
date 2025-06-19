@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.usage-bar {
+    height: 24px;
+    background-color: #e9ecef;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.usage-fill {
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+    transition: width 0.5s ease;
+}
+
+.cpu-fill {
+    background-color: #27ae60;
+}
+
+.mem-fill {
+    background-color: #2980b9;
+}
+
+.high-usage {
+    background-color: #e74c3c !important;
+}
+
+.usage-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: conic-gradient(var(--gauge-color) calc(var(--percent) * 1%), #dee2e6 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle-text {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
