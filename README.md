@@ -2,7 +2,9 @@
 
 A lightweight, real-time web dashboard built with **Flask**, **Prometheus**, and **Kubernetes** to monitor **CPU and Memory usage** of your nodes. Features include auto-refresh, visual usage indicators, average metrics, and responsive UI powered by Bootstrap.
 
-![dashboard screenshot](static/demo_screenshot.png)
+![image](https://github.com/user-attachments/assets/ddc35b3a-ad10-4a69-b70f-d4f917b8294f)
+
+
 
 ---
 
