@@ -21,7 +21,7 @@ A lightweight, real-time web dashboard built with **Flask**, **Prometheus**, and
 
 ## 🖥 Live Demo
 
-> Add a GIF or image showing a working version, or deploy it to GitHub Pages/Heroku and link it.
+![image](https://github.com/user-attachments/assets/db9dc4d7-8035-4e46-8926-bac3df67524b)
 
 ---
 
